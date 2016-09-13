@@ -1,0 +1,7 @@
+  <% if(!url){ %>
+    <img src="<%- file %>" data-size="<%- size %>">
+  <% } else { %>
+    <a href="<%- url %>">
+      <img src="<%- file %>" data-size="<%- size %>">
+    </a>
+  <% } %>

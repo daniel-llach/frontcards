@@ -1,0 +1,97 @@
+{
+  "cards": [
+    {
+      "img": {
+        "file": "img/logo.svg"
+      }
+    },
+    {
+      "video": {
+        "title": "<b>Darwined</b> es calce",
+        "file": "img/calce.jpg",
+        "url": "http://..."
+      }
+    },
+    {
+      "description": {
+        "type": "main",
+        "text": "DarwinEd <sup>3</sup> tiene todo lo que necesita el equipo de programación académica para optimizar los procesos logísticos de tu institución."
+      }
+    },
+    {
+      "title": {
+        "type": "news",
+        "text": "Novedades"
+      }
+    },
+    {
+      "accordeon": [
+        {
+          "title": "Agosto · 2016",
+          "cards": [
+            {
+              "title": "Interfaz de navegación",
+              "description": "Ahora los módulos de trabajo son independientes, permitiendo clasificar las etapas dentro del proyecto con mayor claridad para hacer más grato y ordenado el trabajo en equipo.",
+              "img": {
+                "file": "/img/agosto2016/navegacion.gif"
+              }
+            },
+            {
+              "icon": "img/icon/proyecciones.svg",
+              "title": "Proyección de Demanda",
+              "description": "DarwinEd <sup>3</sup> estrena un nueva versión del módulo que estima la demanda de períodos académicos futuros."
+            },
+            {
+              "title": "Horarios",
+              "description": "Mayor legibilidad y performance a la hora de revisar los horarios creados por Viktor.",
+              "img": {
+                "file": "/img/agosto2016/horarios.gif"
+              }
+            },
+            {
+              "title": "Disponibilidad docente",
+              "description": "Nueva interfaz en donde los docentes y cordinadores pueden configurar todos los criterios y preferencias que regulan el proceso académico.",
+              "img": {
+                "file": "img/agosto2016/disp_docente.gif"
+              }
+            },
+            {
+              "icon": "img/icon/profiles.svg",
+              "title": "Perfiles de usuario",
+              "description": "Edita todos los permisos para grupos, roles y usuarios con un nivel de detalle nunca antes visto en DarwinEd."
+            },
+            {
+              "title": "Métricas personalizadas",
+              "description": "Construye tu propio panel de control con las métricas que son relevantes para tu proceso.",
+              "img": {
+                "file": "img/agosto2016/metricas.gif"
+              }
+            },
+            {
+              "icon": "img/icon/edit.svg",
+              "title": "Asistencia en la edición",
+              "description": "Ahora DarwinEd cuenta con validaciones y consejos a la hora de editar los horarios ya programados por Viktor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "img": {
+        "file": "img/viktor.svg"
+      },
+      "title": "Viktor 4",
+      "description": "<p>Hemos liberado una nueva versión de Viktor, el algorítmo y cerebro de DarwinEd. Él es el encargado de generar los cálculos que permiten realizar todos los calces necesarios para crear horarios de calidad para alumnos y docentes, al mismo tiempo que optimiza la infraestructura.</p> <p>Te invitamos a conocer las mejoras de <a href='viktor.html'>Viktor <img src='img/icon/right_arrow.svg'/></a> </p>"
+    },
+    {
+      "footer": {
+        "logo": {
+          "file": "img/logo_foris_r.svg"
+        },
+        "addres": "Padre Mariano 82, Of. 1401, Providencia.  Chile",
+        "phone": "+56222369873",
+        "email": "info@foris.cl"
+      }
+    }
+  ]
+}

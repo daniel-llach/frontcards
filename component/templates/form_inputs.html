@@ -1,0 +1,9 @@
+<% if(type == "submit"){ %>
+  <input type="<%- type %>" name="<%- name %>" value="<%- text %>"></input>
+<% }else{ %>
+  <div class="name"><%- text %></div>
+  <div style="position:relative;">
+    <input type="<%- type %>" name="<%- name %>"></input>
+  </div>
+
+<% } %>

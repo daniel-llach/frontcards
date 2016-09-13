@@ -1,0 +1,19 @@
+<% switch(origin) { case 'vimeo': %>
+  <!-- aqui embbed vimeo -->
+  <div class="video-poster">
+    <div class="title"><%= title %></div>
+    <% if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { %>
+      <img class="poster_mobile" src="<%- poster_mobile %>">
+    <% } else { %>
+      <img class="poster" src="<%- poster %>">
+    <% } %>
+  </div>
+  <div class="video-modal">
+    <iframe src="<%- file %>" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="back"><span><</span></div>
+  </div>
+ <% break; case 'youtube': %>
+  <!-- TODO: embbed youtube -->
+ <% break; case 'local': %>
+   <!-- TODO: local video with html5 -->
+<% break; } %>

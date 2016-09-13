@@ -1,0 +1,10 @@
+<a href="#">
+  <% if(type == 'prev' || type == 'all') { %>
+    <img src="<%- urlBase %>/img/left_arrow.svg" class="left_arrow">
+    <div class="legend_left"></div>
+  <% } %>
+  <% if(type == 'next' || type == 'all') { %>
+    <img src="<%- urlBase %>/img/right_arrow.svg" class="right_arrow">
+    <div class="legend_right"></div>
+  <% } %>
+</a>

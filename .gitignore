@@ -1,0 +1,8 @@
+# Node Components
+node_modules/*
+
+# Bower Components
+bower_components/*
+
+# OSX data store
+.DS_Store
